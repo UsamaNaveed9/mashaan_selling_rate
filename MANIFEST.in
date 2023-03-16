@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mashaan_selling_rate *.css
+recursive-include mashaan_selling_rate *.csv
+recursive-include mashaan_selling_rate *.html
+recursive-include mashaan_selling_rate *.ico
+recursive-include mashaan_selling_rate *.js
+recursive-include mashaan_selling_rate *.json
+recursive-include mashaan_selling_rate *.md
+recursive-include mashaan_selling_rate *.png
+recursive-include mashaan_selling_rate *.py
+recursive-include mashaan_selling_rate *.svg
+recursive-include mashaan_selling_rate *.txt
+recursive-exclude mashaan_selling_rate *.pyc
