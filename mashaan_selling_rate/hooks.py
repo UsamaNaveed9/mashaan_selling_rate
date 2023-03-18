@@ -90,11 +90,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-doc_events = {
-	"Item": {
-		"before_save": "mashaan_selling_rate.tasks.cal_selling_price"
-	}
-}
+# doc_events = {
+# 	"Item": {
+# 		"before_save": "mashaan_selling_rate.tasks.cal_selling_price"
+# 	}
+# }
 
 # Scheduled Tasks
 # ---------------
