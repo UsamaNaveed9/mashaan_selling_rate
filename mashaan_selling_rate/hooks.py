@@ -111,9 +111,9 @@ scheduler_events = {
 # 	"all": [
 # 		"mashaan_selling_rate.tasks.all"
 # 	],
- 	"daily": [
- 		"mashaan_selling_rate.tasks.cal_selling_price"
- 	]
+ 	# "daily": [
+ 	# 	"mashaan_selling_rate.tasks.cal_selling_price"
+ 	# ]
 # 	"hourly": [
 # 		"mashaan_selling_rate.tasks.hourly"
 # 	],
@@ -123,6 +123,11 @@ scheduler_events = {
 # 	"monthly": [
 # 		"mashaan_selling_rate.tasks.monthly"
 # 	],
+    "cron": {
+		"*/30 * * * *": [
+			"mashaan_selling_rate.tasks.cal_selling_price"
+		]
+	}
 }
 
 # Testing
