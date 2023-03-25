@@ -90,11 +90,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
+#doc_events = {
 # 	"Item": {
 # 		"before_save": "mashaan_selling_rate.tasks.cal_selling_price"
 # 	}
-# }
+#}
 
 # Scheduled Tasks
 # ---------------
@@ -108,9 +108,9 @@ scheduler_events = {
 	# "*/10 * * * * *": [
 	# 	"mashaan_selling_rate.tasks.cal_selling_price"
 	# ]
-# 	"all": [
-# 		"mashaan_selling_rate.tasks.all"
-# 	],
+ 	"all": [
+ 		"mashaan_selling_rate.tasks.cal_selling_price"
+ 	]
  	# "daily": [
  	# 	"mashaan_selling_rate.tasks.cal_selling_price"
  	# ]
@@ -123,11 +123,11 @@ scheduler_events = {
 # 	"monthly": [
 # 		"mashaan_selling_rate.tasks.monthly"
 # 	],
-    "cron": {
-		"*/30 * * * *": [
-			"mashaan_selling_rate.tasks.cal_selling_price"
-		]
-	}
+#        "cron": {
+#		"* * * * *": [
+#			"mashaan_selling_rate.tasks.cal_selling_price"
+#		]
+#	}
 }
 
 # Testing

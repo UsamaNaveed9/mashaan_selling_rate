@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import frappe
 
 @frappe.whitelist()
-def cal_selling_price(method,self):
+def cal_selling_price():
 	items = frappe.db.get_list('Item',
 			filters={
 				'disabled': 0
