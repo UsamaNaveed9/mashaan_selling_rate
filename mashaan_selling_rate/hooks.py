@@ -108,26 +108,26 @@ scheduler_events = {
 	# "*/10 * * * * *": [
 	# 	"mashaan_selling_rate.tasks.cal_selling_price"
 	# ]
- 	"all": [
- 		"mashaan_selling_rate.tasks.cal_selling_price"
- 	]
+ 	# "all": [
+ 	# 	"mashaan_selling_rate.tasks.cal_selling_price"
+ 	# ]
  	# "daily": [
  	# 	"mashaan_selling_rate.tasks.cal_selling_price"
  	# ]
-# 	"hourly": [
-# 		"mashaan_selling_rate.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"mashaan_selling_rate.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"mashaan_selling_rate.tasks.monthly"
-# 	],
-#        "cron": {
-#		"* * * * *": [
-#			"mashaan_selling_rate.tasks.cal_selling_price"
-#		]
-#	}
+	# "hourly": [
+	# 	"mashaan_selling_rate.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"mashaan_selling_rate.tasks.weekly"
+	# ]
+	# "monthly": [
+	# 	"mashaan_selling_rate.tasks.monthly"
+	# ],
+    #    "cron": {
+	# 	"* * * * *": [
+	# 		"mashaan_selling_rate.tasks.cal_selling_price"
+	# 	]
+	# }
 }
 
 # Testing
